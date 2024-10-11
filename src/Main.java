@@ -8,5 +8,11 @@ public class Main {
 
         Substractor substractor = new Substractor();
         System.out.println(substractor.substract(6, 3));
+
+        Multiplier multiplier = new Multiplier();
+        System.out.println(multiplier.multiply(6, 2));
+
+        Dividor dividor = new Dividor();
+        System.out.println(dividor.divide(0, 1000));
     }
 }
